@@ -22,7 +22,7 @@ import os
 import re
 from nltk.tokenize import RegexpTokenizer
 from nltk.tokenize import TweetTokenizer
-print('hello')
+print('hello-1')
 
 def find_bigrams(i_list,n):
     return zip(*[i_list[i:] for i in range(n)])
